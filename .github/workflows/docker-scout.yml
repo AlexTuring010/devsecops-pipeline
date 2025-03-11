@@ -21,5 +21,5 @@ jobs:
       - name: Run Docker Scout Scan
         uses: docker/scout-action@v1
         with:
-          image: YOUR_DOCKER_IMAGE_NAME
+          image: ethan42/lighttpd:main
           command: cves
